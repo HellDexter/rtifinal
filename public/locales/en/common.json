@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "footer": {
+    "address": "Address",
+    "contact": "Contact",
+    "followUs": "Follow Us"
+  }
+}

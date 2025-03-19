@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "Domů",
+    "products": "Produkty",
+    "services": "Služby",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "address": "Adresa",
+    "contact": "Kontakt",
+    "followUs": "Sledujte nás"
+  }
+}
