@@ -67,7 +67,7 @@ const products = [
     title: 'Solární Carport',
     description: 'Inovativní řešení pro parkování s integrovanou solární elektrárnou.',
     image: '/images/products/rti_carport/rti_carport.jpg',
-    href: '/products/solar-carport',
+    href: 'https://www.carportbusiness.com',
     features: [
       'Integrované solární panely',
       'Moderní design',
@@ -92,7 +92,7 @@ const ProductCard = ({ product, index }) => {
       transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
       className="h-full bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer group transform transition-all duration-500 hover:shadow-2xl hover:translate-y-[-8px] hover:border-[#0aef0b] hover:border-2"
     >
-      <Link href={product.href} className="flex flex-col h-full">
+      <Link href={product.href} className="flex flex-col h-full" target={product.href.startsWith('http') ? '_blank' : '_self'} rel={product.href.startsWith('http') ? 'noopener noreferrer' : ''}>
         <div className="relative h-48 sm:h-72 overflow-hidden">
           <Image
             src={product.image}
